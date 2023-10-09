@@ -38,5 +38,5 @@ reviews_df = pd.DataFrame({"user": users_list,
                            "title": titles_list})
 print(reviews_df)
 
-FILENAME = "irecom_netologiya.csv"
+FILE_NAME = "irecom_netologiya.csv"
 # reviews_df.to_csv(FILE_NAME)
