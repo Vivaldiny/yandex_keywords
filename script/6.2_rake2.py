@@ -83,5 +83,5 @@ reviews.to_csv("keywords/keywords.csv", encoding="utf-8-sig")
 reviews_pos = reviews[reviews["Рекомендую друзьям"] == "ДА"].reset_index()
 reviews_neg = reviews[reviews["Рекомендую друзьям"] == "НЕТ"].reset_index()
 
-reviews_pos.to_csv("keywords/pos.csv", encoding="utf-8-sig")
-reviews_neg.to_csv("keywords/neg.csv", encoding="utf-8-sig")
+# reviews_pos.to_csv("keywords/pos.csv", encoding="utf-8-sig")
+# reviews_neg.to_csv("keywords/neg.csv", encoding="utf-8-sig")

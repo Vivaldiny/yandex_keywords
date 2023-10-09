@@ -42,6 +42,6 @@ for i in range(len(reviews)):
     pentagrams_all.append(pentagrams)
 reviews["5-grams"] = pentagrams_all
 
-print(reviews.iloc[0])
+# print(reviews.iloc[0])
 
 reviews.to_csv("data/hexlet_otzovik_ngrams.csv", encoding="utf-8-sig", index=False)

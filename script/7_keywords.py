@@ -24,4 +24,4 @@ neg = pd.read_csv("keywords/neg.csv", encoding="utf-8-sig",
                   index_col=0)
 
 keygrams = get_key_freq(neg, "key5gram", 5)
-keygrams.to_csv("keywords/neg_5gram.csv", encoding="utf-8-sig")
+# keygrams.to_csv("keywords/neg_5gram.csv", encoding="utf-8-sig")

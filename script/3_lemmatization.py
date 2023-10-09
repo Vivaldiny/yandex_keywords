@@ -11,7 +11,7 @@ reviews["lower"] = reviews["Текст"].str.lower()
 reviews_lemm = []
 for i in tqdm(range(len(reviews))):
     lemmas = mystem.lemmatize(reviews.iloc[i]["lower"])
-    print("".join(lemmas))
+    # print("".join(lemmas))
     reviews_lemm.append("".join(lemmas))
 reviews["lemm"] = reviews_lemm
 

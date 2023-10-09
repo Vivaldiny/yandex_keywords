@@ -16,4 +16,3 @@ for i, link in enumerate(list(links_df["link"])):
         if r.status_code == 200:
             with open(f"{PATH}/{i}.txt", "w", encoding="utf-8") as file:
                 file.write(r.text)
-
